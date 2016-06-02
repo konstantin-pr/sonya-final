@@ -234,8 +234,7 @@ a:focus {
 .hero-area { 
    
 }
-
-
+ 
 .carousel-inner .item {
   background-size: cover;
   background-position: top;
@@ -244,6 +243,7 @@ a:focus {
   padding: 100px 0 380px;
   min-height: 700px;
 }
+
 .hero-area .sticky-navigation {
   background: transparent;
 }
@@ -805,17 +805,12 @@ body,
 .carousel-control {
     cursor:pointer;
 }
-.item:nth-child(1) {
-    
-}
+ 
 
-.item:nth-child(2) {
-    
+.item:nth-child(2), .item:nth-child(3)  {
+    min-height: 760px;
 }
-
-.item:nth-child(3) {
-     
-} 
+ 
  .hero-area {
      background: #3297D9;
 /*     background-image: url('..img/hero-area.jpg')*/
@@ -828,7 +823,7 @@ body,
 
 @media screen and (min-width: 768px) {
     .carousel-indicators {
-        bottom: 40px;
+        bottom: 80px;
     }
 }
 
