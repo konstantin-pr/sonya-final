@@ -231,13 +231,18 @@ a:focus {
     position: fixed;
   }
 }
-.hero-area {
-  background: url(../img/hero-area.jpg) no-repeat;
+.hero-area { 
+   
+}
+
+
+.carousel-inner .item {
   background-size: cover;
   background-position: top;
   color: #fff;
   overflow: hidden;
   padding: 100px 0 380px;
+  min-height: 700px;
 }
 .hero-area .sticky-navigation {
   background: transparent;
@@ -254,8 +259,9 @@ a:focus {
 .hero-area .contents .btn {
   margin: 15px;
 }
+
 @media (min-width: 1200px) {
-  .hero-area {
+  .carousel-inner .item {
     padding: 140px  0 400px;
   }
   .hero-area h1 {
@@ -688,9 +694,12 @@ background: linear-gradient(to bottom,  #29b8e5 0%,#00ACED 100%,#bce0ee 100%); /
     margin-top: 12%;
 }
 
+#contact .info p.phone1, #contact .info p.phone2 {
+     color:orange;
+}
 .phone1{
     font-size: 130% !important;
-    color:orange;
+    margin-top: 10px;
 }
 
 .phone-header{
@@ -745,8 +754,7 @@ background: linear-gradient(to bottom,  #29b8e5 0%,#00ACED 100%,#bce0ee 100%); /
       left:2%;
    }
 }
-@media (min-width: 900px){
-    
+@media (min-width: 900px){ 
      .hero-logo {
       position: absolute;
       top: 50px;
@@ -786,4 +794,66 @@ background: linear-gradient(to bottom,  #29b8e5 0%,#00ACED 100%,#bce0ee 100%); /
     color:   orange !important;
 }
 
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+.carousel-control {
+    cursor:pointer;
+}
+.item:nth-child(1) {
+    
+}
+
+.item:nth-child(2) {
+    
+}
+
+.item:nth-child(3) {
+     
+} 
+ .hero-area {
+     background: #3297D9;
+/*     background-image: url('..img/hero-area.jpg')*/
+ }
  
+ 
+.carousel-control {
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-indicators {
+        bottom: 40px;
+    }
+}
+
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}

@@ -3,7 +3,7 @@ jQuery(function($) {
 
 	//Initiat WOW JS
 	new WOW().init();
-
+    $('.carousel').carousel();
     // one page navigation 
     $('.main-navigation').onePageNav({
             currentClass: 'active'
