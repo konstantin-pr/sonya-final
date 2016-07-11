@@ -3,11 +3,56 @@ jQuery(function($) {
 
 	//Initiat WOW JS
 	new WOW().init();
-    $('.carousel').carousel();
+    
     // one page navigation 
     $('.main-navigation').onePageNav({
             currentClass: 'active'
     });
+    
+    $('.show-btn').on('click', function(){
+        var $self = $(this);
+        var $colwrap = $('.colwrap');
+        console.log($colwrap);
+    if ($colwrap.hasClass('hide')){
+        $colwrap.removeClass('hide');
+        $self.html('Сховати планування');
+       } else {
+           $colwrap.addClass('hide');
+           $self.html('Планування поверхів будинок №1');
+       }
+    });
+       $('.show-btn1').on('click', function(){
+        var $self = $(this);
+        var $colwrap = $('.colwrap1');
+        console.log($colwrap);
+    if ($colwrap.hasClass('hide')){
+        $colwrap.removeClass('hide');
+        $self.html('Сховати планування');
+       } else {
+           $colwrap.addClass('hide');
+           $self.html('Планування поверхів будинок №2');
+       }
+    });
+       $('.show-btn2').on('click', function(){
+        var $self = $(this);
+        var $colwrap = $('.colwrap2');
+        console.log($colwrap);
+    if ($colwrap.hasClass('hide')){
+        $colwrap.removeClass('hide');
+        $self.html('Сховати планування квартир');
+       } else {
+           $colwrap.addClass('hide');
+           $self.html('Показати планування квартир');
+       }
+    });
+    $(".fancybox-effects-c").fancybox({
+				padding: 0,
+				openEffect : 'elastic',
+				openSpeed  : 150,
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+				closeClick : true  
+			});
 
     // Countdown
 	$('#counter').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
