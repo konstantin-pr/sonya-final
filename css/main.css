@@ -285,7 +285,7 @@ testimonial-carousel
 
 @media (min-width: 1200px) {
  #carousel .carousel-inner .item {
-    padding: 140px  0 400px;
+    padding: 110px  0 400px;
   }
   .hero-area h1 {
     font-size: 50px !important;
@@ -294,6 +294,8 @@ testimonial-carousel
 #features {
   background: #fff;
 }
+
+
 #features .features {
   margin: 0;
 }
@@ -840,7 +842,7 @@ pading: 0 20px;
 @media (min-width: 1000px){
    .hero-logo {
       position: absolute;
-      top: 25px;
+      top: 0;
       left:2%;
    }
 }
@@ -1030,9 +1032,16 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
     margin: 10px 0;
     color:#20A3CC;
 }
-
+.rostrochka  i {
+  position: relative;
+    top: 2px;
+}
+   
 
 #features .section-header{
     text-align: center;
     padding-top: 20px;
+}
+.mdi {
+    color: orange;
 }
