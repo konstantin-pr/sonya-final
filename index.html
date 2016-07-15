@@ -205,14 +205,14 @@
           <div  class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 wow fadeInLeft shadowglass shadowglass2  " data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="pull-left content">
               <h2>Дізнатись подробиці</h2>
-              <form class="contact-form" role="form" method="post">
+              <form class="contact-form" action="server/send.php" role="form" method="post">
               <i class="mdi-action-account-box"></i>
               <input type="text" class="form-control" name="name" placeholder="Імя">
             
               <i class="mdi-content-mail"></i>
               <input type="phone" class="form-control" name="phone" placeholder="Телефон">                  
                                     
-              <textarea class="form-control" placeholder="Текст питання" rows="4"></textarea>              
+              <textarea name="message" class="form-control" placeholder="Текст питання" rows="4"></textarea>              
               <button type="submit" id="submit" class="btn btn-lg btn-primary">Зателефонуйте мені!</button>
               <div id="success" style="color:orange;">
               </div>
@@ -230,7 +230,7 @@
           <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="feature-item">
               <h3 class="title-small">
-               Лісова частина міста Буча, гарна транспортна доступність.
+               Зручна транспортна доступність.
               </h3>
               <p>
               Житловий Квартал "Сонячна Оселя" має гарне географічне розташування.
@@ -244,7 +244,7 @@
           </div>
           
           <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <img src="img/features/bus.png" class="img-responsive" alt="">
+            <img class="pic-bus" src="img/features/bus.png" class="img-responsive" alt="">
           </div>  
 
         </div>
@@ -258,7 +258,7 @@
       
         <div class="row">   
           <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <img src="img/features/zero.png" class="img-responsive" alt="">
+            <img src="img/features/keys.png" class="img-responsive" alt="">
           </div>    
 
           <div class="col-md-8 col-sm-8 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -287,7 +287,7 @@
           <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="feature-item">
               <h3 class="title-small">
-                Затишна інфраструктура будинку <br/> та подвір'я 
+                Комплексна інфраструктура
               </h3>
                 <p>
                      При розробці проекту Кварталу, архітекторами було передбачено концепцію розвитку комплексної інфраструктури. 
@@ -305,7 +305,7 @@
             </div>
           </div> 
           <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <img src="img/features/yard.png" class="img-responsive" alt="">
+            <img class="pic-water" src="img/features/yard.png" class="img-responsive" alt="">
           </div>  
         </div>
 
@@ -316,15 +316,15 @@
       <div class="container">
         <div class="row text-center">         
             <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Створити заявку на огляд</h3>
-             <a href="javascript:void(0)" class="btn btn-lg btn-border">Передзвоніть мені</a>
+             <a href="#why" class="btn btn-lg btn-border">Зателефонуйте мені</a>
           </div>
       </div>
     </section>
 
-    <section  class="screenshot section">
+    <section id="screen-shot"  class="screenshot section">
       <div class="container">
         <div class="section-header">
-          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Візуалізації квартир</h1>
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Візуалізації будинків</h1>
            
         </div>
       </div>
@@ -910,17 +910,13 @@
           <div class="col-md-6 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
             <h2 class="section-title">Запитати нас</h2>
             <!-- Form -->
-            <form class="contact-form" role="form" method="post">
+            <form class="contact-form" role="form" action="server/send.php" method="post">
               <i class="mdi-action-account-box"></i>
-              <input type="text" class="form-control" name="name" placeholder="i'мя">
-            
+              <input type="text" class="form-control" name="name" placeholder="i'мя"> 
               <i class="mdi-content-mail"></i>
-              <input type="email" class="form-control" name="EMAIL" placeholder="Email">                  
-                                    
-              <textarea class="form-control" placeholder="Зміст питання" rows="4"></textarea>              
+              <input type="phone" class="form-control" name="phone" placeholder="Телефон">          
+              <textarea name="message" class="form-control" placeholder="Зміст питання" rows="4"></textarea>              
               <button type="submit" id="submit" class="btn btn-lg btn-primary">Надіслати листа</button>
-           
-              
             </form>
           </div>
         </div>
@@ -972,8 +968,9 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <h3>Знайдіть нас</h3>
               <a class="social" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="social" href="#" target="_blank"><i class="fa fa-vk"></i></a>
               <a class="social" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-              <a class="social" href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+              
             </div>
           </div>
         </div>  
