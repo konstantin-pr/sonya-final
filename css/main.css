@@ -110,12 +110,12 @@ a:focus {
     background-image: linear-gradient(to top right, rgba(255, 144, 0,1),   rgba(255, 137, 0,1)) !important;
 }
  
-#main-features .row {
+.main-features .row {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-#main-features p {
+.main-features p, .feature-item p {
     font-size: 132%;
 }
 .sticky-navigation .row {
@@ -791,7 +791,7 @@ pading: 0 20px;
 
 .hero-logo {
   position: absolute;
-  top: 25px;
+  top:  0;
   left:2%;
 }
 
@@ -828,21 +828,19 @@ pading: 0 20px;
     }
      .hero-logo {
       position: absolute;
-      top: 60px;
+       top: -120px;
       left:2%;
    }
 }
 @media (min-width: 900px){ 
      .hero-logo {
-      position: absolute;
-      top: 50px;
+      position: absolute; 
       left:2%;
    }
 }
 @media (min-width: 1000px){
    .hero-logo {
-      position: absolute;
-      top: 0;
+      position: absolute; 
       left:2%;
    }
 }
@@ -1034,9 +1032,13 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 }
 .rostrochka  i {
   position: relative;
-    top: 2px;
+  bottom: 3px;
 }
-   
+
+.form-control {
+    font-size: 120%;
+}
+
 /*map overlay*/
 .map { 
    background:  transparent;
