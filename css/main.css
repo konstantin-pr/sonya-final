@@ -855,9 +855,7 @@ header .shadowglass {
     width: 45%;
     margin-left: 45%;
 }
-.phone-header i {
-    font-size: 80% !important; 
-}
+ 
 .shadowglass.shadowglass2  { 
     padding: 10px 20px;
     margin-left: 380px;  
@@ -897,6 +895,7 @@ body,
 }
 
 
+/*
 #carousel .item:nth-child(2), #carousel .item:nth-child(3) {
     min-height: 752px !important;
 }
@@ -906,6 +905,7 @@ body,
     min-height: auto !important;
     }
 }
+*/
  
 
  
@@ -925,6 +925,7 @@ body,
     }
 }
 
+ 
 
 
 .carousel-fade .carousel-inner .item {
@@ -1055,4 +1056,20 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 }
 .mdi {
     color: orange;
+}
+.hero-area .mdi {
+    color: #fff;
+}
+.hero-area .mdi.mdi-menu {
+    color: orange;
+}
+.hero-area .mdi.mdi-menu:hover{
+    color: #fff;
+}
+.navbar-inverse .affix .mdi {
+    color: #fff !important;
+}
+.phone-header .mdi {
+    color:greenyellow;
+    font-size: 105% !important;
 }
