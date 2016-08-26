@@ -1,8 +1,14 @@
-
+ 
 jQuery(function($) {
 
+
+    var md = new MobileDetect(window.navigator.userAgent);
+
 	//Initiat WOW JS
-	new WOW().init();
+    if (!md.mobile() && !md.tablet()){
+        new WOW().init();    
+    }
+	
     
     // one page navigation 
     $('.main-navigation').onePageNav({
