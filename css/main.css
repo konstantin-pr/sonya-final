@@ -1116,19 +1116,24 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 .navbar-inverse .affix .mdi {
     color: #fff !important;
 }
+
 .phone-header .mdi {
-    color:greenyellow;
-    font-size: 105% !important;
-    line-height: 34px;
+  color: greenyellow;
+  font-size: 105% !important;
+  line-height: 34px;
+  vertical-align: middle;
+  top: -4px;
+  position: relative;
 }
 
-
+.phone-header.first .mdi {
+  left: -4px;
+} 
 
 @media (max-width: 480px) { .showplans {padding: 20px 10px !important;}
 
 .hero-logo {
-    position: absolute;
-    top: 0;
+    position: absolute;    
     left: 2%;
     width: 50%;
     top: 2%;
