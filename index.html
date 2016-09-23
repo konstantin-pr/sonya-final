@@ -215,10 +215,10 @@
                             <h2>Дізнатись подробиці</h2>
                             <form class="contact-form" action="server/send.php" method="post">
                                 <i class="mdi mdi-account-box"></i>
-                                <input type="text" class="form-control" name="name" placeholder="Ваше Ім'я">
+                                <input type="text" required class="form-control" name="name" placeholder="Ваше Ім'я">
 
                                 <i class="mdi mdi-cellphone-iphone"></i>
-                                <input type="text" class="form-control" name="phone" placeholder="Ваш телефон">
+                                <input type="text" required class="form-control" name="phone" placeholder="Ваш телефон">
 
                                 <textarea name="message" class="form-control" placeholder="Питання до нас" rows="4"></textarea>
                                 <button type="submit" id="submit" class="btn btn-lg btn-primary">Зателефонуйте мені!</button>
@@ -963,9 +963,9 @@
                         <!-- Form -->
                         <form class="contact-form" role="form" action="server/send.php" method="post">
                             <i class="mdi mdi-account"></i>
-                            <input type="text" class="form-control" name="name" placeholder="Ваше І'мя">
+                            <input type="text" required class="form-control" name="name" placeholder="Ваше І'мя">
                             <i class="mdi mdi-cellphone-iphone"></i>
-                            <input type="text" class="form-control" name="phone" placeholder="Ваш телефон">
+                            <input type="text" required class="form-control" name="phone" placeholder="Ваш телефон">
                             <textarea name="message" class="form-control" placeholder="Залишити заявку на огляд" rows="4"></textarea>
                             <button type="submit" class="btn btn-lg btn-primary">Надіслати листа</button>
                         </form>
