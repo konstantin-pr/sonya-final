@@ -1,5 +1,5 @@
 <?php
-header("Refresh=4;url=http://sonyachna.com/");
+header("Refresh: 4;url=http://sonyachna.com/");
 ?>
  
 <!doctype html>
