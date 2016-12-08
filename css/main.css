@@ -14,7 +14,7 @@ body {
 font-family: 'Playfair Display', 'Times New Roman', Times, serif;
 font-weight: 300;
 }
-.btn {  
+.btn {
   font-size: 14px;
   font-weight: 400;
 }
@@ -38,6 +38,10 @@ ul {
 }
 ul li {
   list-style: none;
+}
+
+.navbar-header a{
+  color: #fff;
 }
 a:hover,
 a:focus {
@@ -100,16 +104,16 @@ a:focus {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   padding: 0!important;
-  background: orange;   
+  background: orange;
   background-repeat: repeat-x;
   background-image: linear-gradient(to top right, rgba(255, 144, 0,1), rgba(255, 137, 0,1)) !important;
- 
+
 
 }
 .navbar.menu-wrap{
     background-image: linear-gradient(to top right, rgba(255, 144, 0,1),   rgba(255, 137, 0,1)) !important;
 }
- 
+
 .main-features .row {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -202,7 +206,7 @@ a:focus {
   top: 30px;
   overflow: hidden;
   text-indent: 10px;
-  border: none; 
+  border: none;
   color:#fff !important;
   background: rgba(255, 144, 0,1);
 }
@@ -248,10 +252,10 @@ a:focus {
   }
 }
 
-.hero-area { 
-   
+.hero-area {
+
 }
- 
+
 #carousel .carousel-inner .item {
   background-size: cover;
   background-position: top;
@@ -323,14 +327,14 @@ testimonial-carousel
 }
 #features .features .features-text p {
     margin: 0;
-    font-size: 114%; 
-    line-height: 140% 
+    font-size: 114%;
+    line-height: 140%
 }
 #why {
   background: url(../img/why-bg.jpg);
   background-size: cover;
   background-position: center;
-  color: #fff; 
+  color: #fff;
  }
 #why .content h2 {
   font-size: 50px;
@@ -356,12 +360,12 @@ testimonial-carousel
   padding: 48px 0;
 }
 
-.showplans { 
-    padding: 35px 40px;    
+.showplans {
+    padding: 35px 40px;
     background-repeat: repeat-x;
     background-image: linear-gradient(45deg,  rgb(255, 144, 0), #f8d013);
     text-align: center;
-   
+
 }
 
 .colwrap  .section-header{
@@ -373,19 +377,19 @@ testimonial-carousel
     color: #fff !important;
     border: 1px solid #fff;
 }
-.showplans1 {  
+.showplans1 {
     background-image: linear-gradient(45deg, #53A306, #ABEB41);
 }
 
-.showplans2 {  
+.showplans2 {
     padding: 40px;
 
-    background-image: linear-gradient(45deg, #29b8e5, #bce0ee); 
-   
+    background-image: linear-gradient(45deg, #29b8e5, #bce0ee);
+
 }
 
- 
-#cta { 
+
+#cta {
 background-repeat: repeat-x;background-image: linear-gradient(45deg, #53A306, #ABEB41);
 }
 
@@ -401,7 +405,7 @@ background-repeat: repeat-x;background-image: linear-gradient(45deg, #53A306, #A
 .main-feature-gray {
   background: #ecf0f1;
 }
- 
+
 .screenshot .portfolio-item {
   padding: 30px 0;
 }
@@ -485,7 +489,7 @@ background-repeat: repeat-x;background-image: linear-gradient(45deg, #53A306, #A
   transform: scale3d(1.2, 1.3, 1);
 }
 
- 
+
 #other-features {
   padding-bottom: 35px;
 }
@@ -515,7 +519,7 @@ background-repeat: repeat-x;background-image: linear-gradient(45deg, #53A306, #A
   color: #909090;
   line-height: 150%;
   padding: 0px 4px;
-  font-size: 128%;  
+  font-size: 128%;
 }
 
 #other-features .features-content .umovy {
@@ -643,9 +647,9 @@ background-repeat: repeat-x;background-image: linear-gradient(45deg, #53A306, #A
 }
  #footer {
 
-/*  background: #5C258D; 
+/*  background: #5C258D;
   background: -webkit-linear-gradient(to bottom, #5C258D , #4389A2);
-  background: linear-gradient(to bottom, #53A306 , green);*/ 
+  background: linear-gradient(to bottom, #53A306 , green);*/
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+100,bce0ee+100 */
 background: #00ACED;; /* Old browsers */
 background: -moz-linear-gradient(top,  #29b8e5 0%, #00ACED 100%, #bce0ee 100%); /* FF3.6-15 */
@@ -754,11 +758,11 @@ pading: 0 20px;
 .social .mdi-youtube-play:hover {
     background: #FC4949;
 }
-  
+
 .social .mdi-vk:hover {
   background: #007BB6;
 }
-  
+
 
 /*Modified Styles*/
 #why .form-control {
@@ -768,10 +772,10 @@ pading: 0 20px;
 
 #why .form-control:focus {
     color: greenyellow;
-    
+
 }
 
-  
+
 .pull-top {
     margin-top: 12%;
 }
@@ -806,7 +810,7 @@ pading: 0 20px;
 .navbar.affix .header-logo{
   display: inline-block;
 }
-.affix-phones { 
+.affix-phones {
     float: right;
     display: none;
 }
@@ -836,15 +840,15 @@ pading: 0 20px;
       left:2%;
    }
 }
-@media (min-width: 900px){ 
+@media (min-width: 900px){
      .hero-logo {
-      position: absolute; 
+      position: absolute;
       left:2%;
    }
 }
 @media (min-width: 1000px){
    .hero-logo {
-      position: absolute; 
+      position: absolute;
       left:2%;
    }
 }
@@ -853,30 +857,30 @@ pading: 0 20px;
     padding: 15px 20px;
     box-shadow: 0px 0px 9px -3px #000000;
     padding: 10px 50px 10px 0;
-    margin-left: 480px;  
+    margin-left: 480px;
 }
 @media max-width(480px)
  {
-        
-    header .shadowglass { 
+
+    header .shadowglass {
         width: 80%;
         margin-left: 10%;
         font-size: 72%;
     }
-    
+
 }
 
-.shadowglass.shadowglass2  { 
+.shadowglass.shadowglass2  {
     padding: 10px 20px;
-    margin-left: 380px;  
+    margin-left: 380px;
 }
 
 @media (max-width: 768px) {
-  .shadowglass.shadowglass2 , .shadowglass { 
-      margin-left: 0px; 
-      float: none !important; 
+  .shadowglass.shadowglass2 , .shadowglass {
+      margin-left: 0px;
+      float: none !important;
   }
-    
+
   .shadowglass2 {
     min-height: 420px;
   }
@@ -887,12 +891,12 @@ pading: 0 20px;
 }
 
 .shadowglass_title{
-    background: rgba(0,0,0,0.3);  
+    background: rgba(0,0,0,0.3);
     width: 85%;
     margin: auto;
 }
 .shadowglass_less{
-    background: rgba(0,0,0,0.3);  
+    background: rgba(0,0,0,0.3);
     width: 65%;
     margin: auto;
 }
@@ -900,14 +904,14 @@ pading: 0 20px;
 #why input::-webkit-input-placeholder,
 #why input:-moz-placeholder,
 #why input::-moz-placeholder,
-#why input:-ms-input-placeholder {  
+#why input:-ms-input-placeholder {
     color: orange !important;
 }
 
-html, 
-body, 
-.carousel, 
-.carousel-inner, 
+html,
+body,
+.carousel,
+.carousel-inner,
 .carousel-inner .item {
     height: 100%;
 }
@@ -915,20 +919,20 @@ body,
 .carousel-control {
     cursor:pointer;
 }
- 
+
 .navbar-inverse.navbar {
     background: transparent;
 }
- 
- 
 
- 
+
+
+
  .hero-area {
      background: #3297D9;
 /*     background-image: url('..img/hero-area.jpg')*/
  }
- 
- 
+
+
 .carousel-control {
     z-index: 2;
 }
@@ -954,7 +958,7 @@ body,
       .phone-header {
          font-size: 200% !important;
      }
-     
+
     .navbar .navbar-right {
         position: absolute;
         margin-bottom: 10px;
@@ -964,9 +968,9 @@ body,
     }
     .navbar.navbar-fixed-top.affix .affix-phones {
         display: inline-block;
-        font-size: 70%;    
+        font-size: 70%;
     }
-     
+
      header .shadowglass {
         width: 80%;
         margin-left: 10%;
@@ -1002,7 +1006,7 @@ body,
 .screenshot .col-md-4.col-sm-6 {
     max-height: 400px;
     height: 400px;
-    
+
 }
 
 .portfolio {
@@ -1019,7 +1023,7 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 ::-webkit-input-placeholder {
    color: #f8d013 !important;
 }
-  
+
 #portfolio figure img{
   display: block;
   width: 100%;
@@ -1037,7 +1041,7 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 }
 
 .screenshot {
-    padding-bottom: 0; 
+    padding-bottom: 0;
 }
 
 #other-features {
@@ -1062,8 +1066,8 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
     padding-bottom: 35px;
 }
 
-#contact .row { 
-    padding: 10px 0; 
+#contact .row {
+    padding: 10px 0;
 }
 .pic-keys {
     margin-top: 20px;
@@ -1088,13 +1092,13 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 }
 
 /*map overlay*/
-.map { 
+.map {
    background:  transparent;
-   position:relative; 
+   position:relative;
    width: 100%;
    height:450px; /* your iframe height */
    top:450px;  /* your iframe height */
-   margin-top:-450px;  /* your iframe height */ 
+   margin-top:-450px;  /* your iframe height */
 }
 
 #features .section-header{
@@ -1109,6 +1113,9 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 }
 .hero-area .mdi.mdi-menu {
     color: orange;
+}
+.affix .mdi.mdi-menu{
+ color:  lemonchiffon;
 }
 .hero-area .mdi.mdi-menu:hover{
     color: #fff;
@@ -1128,12 +1135,12 @@ box-shadow: 11px 6px 5px -9px rgba(40,199,0,1);
 
 .phone-header.first .mdi {
   left: -4px;
-} 
+}
 
 @media (max-width: 480px) { .showplans {padding: 20px 10px !important;}
 
 .hero-logo {
-    position: absolute;    
+    position: absolute;
     left: 2%;
     width: 50%;
     top: 2%;
