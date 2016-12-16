@@ -955,8 +955,13 @@ body,
      .navbar .navbar-right .mdi.mdi-menu {
         color: #fff;
      }
+     
       .phone-header {
-         font-size: 200% !important;
+        font-size: 200% !important;
+        text-align: center;
+        display: block; 
+        margin: 0% auto 10%;
+        width: 180px;
      }
 
     .navbar .navbar-right {
@@ -972,10 +977,16 @@ body,
     }
 
      header .shadowglass {
-        width: 80%;
-        margin-left: 10%;
+        margin: 10%;
         font-size: 80%;
+        text-align: center !important;
+        padding: 10px 0px 10px 0;
      }
+     
+     .navbar .navbar-header {
+            padding: 15px 14%;
+            float: left;
+        }
 }
 
 
